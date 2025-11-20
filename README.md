@@ -17,5 +17,5 @@ This project demonstrates hosting a static website (HTML, CSS, JS) for free usin
 # How to Use / Update
 Clone the repository
 
- git clone https://github.com//Divya28K.github.io.git
+ git clone https://github.com/Divya28K/Divya28K.github.io.git
 
