@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Divya Kasturi | Portfolio</title>
+
+  <!-- Inline CSS -->
+  <style>
+    /* General Styles */
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      background: linear-gradient(120deg, #f8f9fa, #e8f0fe);
+      color: #333;
+      scroll-behavior: smooth;
+    }
+
+    /* Navbar */
+    .navbar {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background: linear-gradient(90deg, #007bff, #6610f2);
+      display: flex;
+      justify-content: center;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      z-index: 1000;
+    }
+
+    .navbar ul {
+      list-style: none;
+      margin: 0;
+      padding: 15px 0;
+      display: flex;
+      gap: 30px;
+    }
+
+    .navbar a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+
+    .navbar a:hover {
+      color: #ffeb3b;
+      text-shadow: 0 0 10px #ffeb3b;
+    }
+
+    /* Sections */
+    section {
+      padding: 100px 20px;
+      text-align: center;
+    }
+
+    h1, h2 {
+      color: #3f51b5;
+    }
+
+    p, li {
+      line-height: 1.6;
+      font-size: 1.1em;
+    }
+
+    /* Home Section */
+    #home {
+      background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+      color: white;
+      padding-top: 120px;
+    }
+
+    #home h1 {
+      font-size: 2.5em;
+      color: #00e5ff;
+      text-shadow: 0 0 10px rgba(255,255,255,0.5);
+    }
+
+    #home p {
+      font-size: 1.2em;
+      color: white;
+    }
+
+    /* Skills Section */
+    #skills ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    #skills li {
+      margin: 10px 0;
+      background: #f0f8ff;
+      border-left: 5px solid #007bff;
+      padding: 10px;
+      border-radius: 6px;
+      transition: 0.3s;
+    }
+
+    #skills li:hover {
+      background: #dbeafe;
+      transform: scale(1.03);
+    }
+
+    /* Projects Section */
+    #projects li {
+      margin: 15px 0;
+      background: #fff3cd;
+      padding: 12px;
+      border-left: 5px solid #ffc107;
+      border-radius: 6px;
+      transition: 0.3s;
+    }
+
+    #projects li:hover {
+      background: #fff9e6;
+      transform: scale(1.03);
+    }
+
+    /* Internship Section */
+    #internship li {
+      margin: 15px 0;
+      background: #e3fcef;
+      padding: 12px;
+      border-left: 5px solid #28a745;
+      border-radius: 6px;
+      transition: 0.3s;
+    }
+
+    #internship li:hover {
+      background: #d2f4e3;
+      transform: scale(1.03);
+    }
+
+    /* Certificates Section */
+    #certificates li {
+      margin: 10px 0;
+      background: #fbe9e7;
+      padding: 10px;
+      border-left: 5px solid #ff5722;
+      border-radius: 6px;
+      transition: 0.3s;
+    }
+
+    #certificates li:hover {
+      background: #ffe0b2;
+      transform: scale(1.03);
+    }
+
+    /* Contact Section */
+    #contact a {
+      color: #007bff;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    #contact a:hover {
+      color: #6610f2;
+    }
+
+    /* Footer */
+    footer {
+      background: #3f51b5;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+      margin-top: 30px;
+      box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav class="navbar">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+       <li><a href="#internship">Internship</a></li>
+      <li><a href="#certificates">Certificates</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home">
+    <h1>Welcome to My Portfolio</h1>
+    <p>Hi, I’m <strong>Divya Kasturi</strong> — an AI & Data Science student passionate about building data-driven and intelligent systems.</p>
+    <p>I love combining analytics, machine learning, and web technologies to create impactful real-world solutions.</p>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I’m an engineering graduate specializing in Artificial Intelligence and Data Science from Sree Rama Engineering College.
+      I have hands-on experience in Machine Learning, Web Development, and Data Analytics.
+      I enjoy problem-solving and building intelligent full-stack applications.
+    </p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>Technical Skills</h2>
+    <ul>
+      <li><strong>Programming:</strong> Python, Java, SQL</li>
+      <li><strong>Machine Learning:</strong> Regression, Classification, Time-Series, NLP</li>
+      <li><strong>Web Development:</strong> MERN Stack (MongoDB, Express, React, Node.js)</li>
+      <li><strong>Data Visualization:</strong> Power BI, Tableau, Excel</li>
+      <li><strong>Other Tools:</strong> GitHub, VS Code, Jupyter Notebook</li>
+    </ul>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li><strong>Dynamic Pricing Prediction:</strong> ML model using demand, inventory, and user behavior.</li>
+      <li><strong>Credit Scoring Model:</strong> Predictive scoring using Python & ML.</li>
+      <li><strong>Disaster Response Platform:</strong> MERN app with Gemini API for real-time data.</li>
+      <li><strong>Day Planner App (Flutter):</strong> A mobile productivity app with reminders.</li>
+    </ul>
+  </section>
+
+  <!-- Internship Section -->
+  <section id="internship">
+    <h2>Internship Experience</h2>
+    <ul>
+      <li>
+        <strong>Full Stack Developer Intern – Zidio Development (Jun–Aug 2025)</strong><br>
+        Built a Payment Dashboard using NestJS + Flutter with WebSocket updates.
+      </li>
+      <li>
+        <strong>Java Intern – Codetantra (May–Jul 2024)</strong><br>
+        Strengthened backend logic, OOP, and problem-solving.
+      </li>
+    </ul>
+  </section>
+
+  <!-- Certificates -->
+  <section id="certificates">
+    <h2>Certificates</h2>
+    <ul>
+      <li>Python for Data Structures – Great Learning</li>
+      <li>IoT – NPTEL</li>
+      <li>Reinforcement Learning – NPTEL</li>
+    </ul>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:divyakasturi2022@gmail.com">divyakasturi2022@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/kasturi-divya-b43738292" target="_blank">linkedin.com/in/kasturi-divya-b43738292</a></p>
+    <p>GitHub: <a href="https://github.com/Divya28K" target="_blank">github.com/Divya28K</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Divya Kasturi | All Rights Reserved</p>
+  </footer>
+
+  <!-- Inline JavaScript -->
+  <script>
+    // Navbar highlight
+    window.addEventListener("scroll", () => {
+      let sections = document.querySelectorAll("section");
+      let navLinks = document.querySelectorAll(".navbar a");
+
+      sections.forEach((section, index) => {
+        let top = window.scrollY;
+        let offset = section.offsetTop - 150;
+        let height = section.offsetHeight;
+
+        if (top >= offset && top < offset + height) {
+          navLinks.forEach((link) => link.classList.remove("active"));
+          navLinks[index].classList.add("active");
+        }
+      });
+    });
+
+    // Glow on hover
+    const navItems = document.querySelectorAll(".navbar a");
+    navItems.forEach((item) => {
+      item.addEventListener("mouseover", () => {
+        item.style.textShadow = "0 0 10px #ffeb3b";
+      });
+      item.addEventListener("mouseout", () => {
+        item.style.textShadow = "none";
+      });
+    });
+
+    // Welcome animation
+    window.onload = () => {
+      const home = document.querySelector("#home h1");
+      home.style.transition = "all 1.5s ease";
+      home.style.opacity = "0";
+      setTimeout(() => {
+        home.style.opacity = "1";
+      }, 300);
+    };
+  </script>
+
+</body>
+</html>
